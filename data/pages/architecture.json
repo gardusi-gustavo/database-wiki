@@ -1,0 +1,11 @@
+{
+  "id": "architecture",
+  "title": "Architecture",
+  "slug": "architecture",
+  "tags": [
+    "meta",
+    "architecture"
+  ],
+  "body": "# Architecture\n\nGitHub is the source of truth. Git bundles are the backup layer. Gitea is a frozen read-only archive.",
+  "updated": "2026-11-10"
+}

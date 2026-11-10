@@ -1,0 +1,18 @@
+{
+  "rank": "1.1",
+  "title": "Add wiki schema validation to CI",
+  "context": "The wiki data contract is new and must reject malformed pages before dashboard consumption.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Validate every page and index entry against the schema.",
+    "expected_outcome": "CI fails on missing fields, duplicate ids, or broken index paths.",
+    "acceptance_criteria": [
+      "Invalid page fails CI",
+      "Index and page ids agree"
+    ]
+  },
+  "attempts": []
+}

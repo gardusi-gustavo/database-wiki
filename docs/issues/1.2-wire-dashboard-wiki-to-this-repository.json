@@ -1,0 +1,18 @@
+{
+  "rank": "1.2",
+  "title": "Wire dashboard-wiki to this repository",
+  "context": "dashboard-wiki currently uses its own checkout as the database source.",
+  "limits": {
+    "max_commits": 3,
+    "max_file_changes": 3
+  },
+  "spec": {
+    "summary": "Point dashboard-wiki at database-wiki and pin the data tag.",
+    "expected_outcome": "dashboard-wiki builds from database-wiki at a pinned tag.",
+    "acceptance_criteria": [
+      "Build works without a local docs fallback",
+      "Unpinned data is rejected"
+    ]
+  },
+  "attempts": []
+}

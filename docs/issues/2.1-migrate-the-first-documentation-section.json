@@ -1,0 +1,18 @@
+{
+  "rank": "2.1",
+  "title": "Migrate the first documentation section",
+  "context": "The wiki seed is intentionally small; content still lives in dashboard-wiki/docs.",
+  "limits": {
+    "max_commits": 4,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Move one coherent section into data/pages and update the index.",
+    "expected_outcome": "The selected section renders from database-wiki.",
+    "acceptance_criteria": [
+      "Index entry exists",
+      "Dashboard renders the migrated section"
+    ]
+  },
+  "attempts": []
+}

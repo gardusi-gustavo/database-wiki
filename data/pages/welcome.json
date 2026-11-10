@@ -1,0 +1,10 @@
+{
+  "id": "welcome",
+  "title": "Welcome",
+  "slug": "welcome",
+  "tags": [
+    "meta"
+  ],
+  "body": "# Welcome\n\nThe wiki is a build-time data source for the dashboard. Start with the architecture page.",
+  "updated": "2026-11-10"
+}
